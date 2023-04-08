@@ -13,7 +13,7 @@ int height = width;
 
 
 //adjusting these values will zoom in or out to a spot on the mandelbrot set
-//the distance between these values is the zoom level and both should be the same
+//the ratio between the width and height should be the same as the ratio between the upper and lower bounds
 //https://www.geogebra.org/m/mfewjrek
 double brotXLowerBound = -1.5d;
 double brotXUpperBound = 0.5d;
