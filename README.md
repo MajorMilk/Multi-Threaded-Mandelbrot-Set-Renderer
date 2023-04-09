@@ -5,5 +5,12 @@
 
  you can also slide the window around by adjusting the x and y offsets;
 
- ![image](https://user-images.githubusercontent.com/115612092/230722694-1c22c89b-fe69-4087-8a9e-18d5034f59a7.png)
+# Update
+ 
+ I added julia set support and more clear instructions. I am considering updating this in the future to support image tiling so I can make images greater than 23k, but i'll do that later.
+ 
+ ![JuliaSet2k-0 80 156](https://user-images.githubusercontent.com/115612092/230749636-100ef084-5de3-494e-95bd-9c10e8d0aeb1.png)
+
+
+![image](https://user-images.githubusercontent.com/115612092/230722694-1c22c89b-fe69-4087-8a9e-18d5034f59a7.png)
 
