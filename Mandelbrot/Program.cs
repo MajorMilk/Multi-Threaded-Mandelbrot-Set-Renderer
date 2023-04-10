@@ -11,7 +11,7 @@
 int width = 2000;
 int height = width;
 
-bool JuliaSetMode = true;
+bool JuliaSetMode = false;
 
 double JuliaSetA = -0.8; //Real constant
 double JuliaSetB = 0.156; //Imaginary constant
@@ -65,8 +65,16 @@ for(int i = 0; i < numThreads; i++)
                 double a = Map(x, 0, width, brotXLowerBound, brotXUpperBound) + xOffset;
                 double b = Map(y, 0, height, brotYLowerBound, brotYUpperBound) + yOffset;
 
-                double real = a * a - b * b;
-                double imaginary = 2 * a * b;
+
+
+                double real = 0, imaginary = 0;
+
+                if(JuliaSetMode)
+                {
+                    real = a * a - b * b;
+                    imaginary = 2 * a * b;
+                }
+                
 
                 it = 0;
                 for(; it < 500; it++)
